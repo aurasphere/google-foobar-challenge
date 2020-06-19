@@ -41,7 +41,7 @@ With this solution, you would pick up bunnies 1 and 2. This is the best combinat
 
 To provide a Python solution, edit solution.py
 
-To provide a Java solution, edit solution.java
+To provide a Java solution, edit Solution.java
 
 ### Test Cases
 

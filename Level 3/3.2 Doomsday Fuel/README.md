@@ -42,7 +42,7 @@ So, putting that together, and making a common denominator, gives an answer in t
 
 To provide a Python solution, edit solution.py
 
-To provide a Java solution, edit solution.java
+To provide a Java solution, edit Solution.java
 
 ### Test Cases
 

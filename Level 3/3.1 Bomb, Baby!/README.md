@@ -22,7 +22,7 @@ You need to know how many replication cycles (generations) it will take to gener
 
 To provide a Python solution, edit solution.py
 
-To provide a Java solution, edit solution.java
+To provide a Java solution, edit Solution.java
 
 ### Test cases
 
