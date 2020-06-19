@@ -14,7 +14,7 @@ Write a function called answer(s) which takes in a string and returns the deciph
 
 To provide a Python solution, edit solution.py
 
-To provide a Java solution, edit solution.java
+To provide a Java solution, edit Solution.java
 
 ### Test cases
 
