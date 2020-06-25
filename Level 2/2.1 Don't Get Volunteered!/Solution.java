@@ -8,6 +8,7 @@ public class Solution {
     public static int solution(int src, int dest) {
         int movesCount = 0;
         Set<Integer> visitedSquares = Collections.singleton(src);
+        // Simple breadth-first search algorithm.
         while (!visitedSquares.contains(dest)) {
             visitedSquares = visitedSquares.parallelStream()
                 .map(Solution::getNextMovesFromSquare)
@@ -18,9 +19,11 @@ public class Solution {
         return movesCount;
     }
 
-    private static Set<Integer> getNextMovesFromSquare(int square) {
+    static Set<Integer> getNextMovesFromSquare(int square) {
         int modSquare = square % 8;
-        Set<Integer> nextMoves = new HashSet<Integer>();
+        Set<Integer> nextMoves = new HashSet<>();
+
+        // Adds the valid moves according to our current position.
         if (modSquare < 7) {
             if (modSquare < 6) {
                 nextMoves.add(square + 10);
